@@ -1,0 +1,82 @@
+body{
+    background-color: blueviolet;
+    color:rgb(28, 28, 28);
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    /* color:rgb(28, 28, 28); */
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.card{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: silver; */
+    padding: 1px;
+    font-size: 1.5rem;
+    box-shadow: 3px 4px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 19px 0px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.forButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.increment{
+    /* padding: 10px; */
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.decrement{
+    font-size: 2.2rem;
+    border-radius: 5px;
+}
+
+.bill{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+button{
+    padding: 15px;
+    background-color:rgb(160, 160, 160);
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list{
+    font-size: 2rem;
+}
